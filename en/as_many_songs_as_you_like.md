@@ -7,7 +7,7 @@
     var songsToDisplay = songsList.length
   ```
   
-  The variables are created using the `var` **keyword**. Every **variable** needs that before its name when it's created. The first **variable**, `songsListDisplay` is just holding a number. It's going to be used as a counter, and it's starting at 0. Computers count from 0 instead of 1. 
+  The variables are created using the `var` **keyword**. Every **variable** needs that before its name when it's created. The first **variable**, `songsListDisplay` is just holding a number. It's going to be used as a counter, and it's starting at 0. JavaScript counts from 0 instead of 1. 
   
 2. The second **variable** is more interesting. It's storing the length of the `songsList`, which is a **property** of the `songsList` you can ask it for. The way this **loop** is going to work, to display every song, is by keeping a count of how many songs it has displayed in `songsDisplayed` and comparing that to `songsToDisplay`. As long as the count is less than (`<`) the target number, it will keep going. Add the **loop** in below the variables like this
   ```javascript
