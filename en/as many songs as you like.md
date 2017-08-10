@@ -33,3 +33,5 @@
   Delete the first one. You don't need it anymore as you are creating the `song` **variable** inside the **loop**. Cut (ctrl+x on Windows, cmd+x on a Mac) the second line and paste (ctrl+v on Windows, cmd+v on a Mac) it as the last line inside your **while loop**.
   
 5. Now reload “music.html” and watch all the songs appear! 
+
+  

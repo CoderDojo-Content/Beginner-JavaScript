@@ -1,38 +1,5 @@
-1. In these Sushi Cards you'll be learning JavaScript—one of the world's most popular programming languages. You probably use things built with it every day. It's in every major website, including YouTube, FaceBook, Instagram and Google. It's also in lots of mobile apps and browser games.
-2. Trinket forking instructions
-3. These cards are designed to follow on from the beginner HTML Sushi Cards, but don't worry if you haven't done those. There's not much HTML in these cards and it'll be explained when you see it. Either way, you'll be getting some music from the internet and setting up a player on the page so the user can pick which track they want to listen to. The first thing you'll need to do is look at your “music.html” file and see that it's pretty basic:
+1. You may not need to include a setup card, but here it is, in case it's useful to you!
+2. Normally, I would include instructions for the Ninja here, about anything they may need to sign-up for, configure, etc.
 
-   ```html
-   <html>
-       <body>
-           <div id="jsSpace"></div>
-       </body>
-   </html>
-   ```
 
-  All you have there is the basic HTML code for a page with a `div` \(division\) element with an `id` attribute where the `div` is called "jsSpace". What you need to do now is include a few JavaScript files on the page. You do that using the `script` tag with the `src` attribute set to the name of your file. You've got three JavaScript files:
 
-  * **techie-functions**—Some of my code that you don't need to change, but feel free to take a look to understand how it's working
-  * **functions.js**—Some of my code that you'll need to make some changes to over the course of these Sushi Cards
-  * **my-script.js**—Where you'll be writing your code
-
-  The order you add the `script` tags in is important because you need to load a piece of code before you can use it. You'll need to load them in the order listed above, like so:
-  ```html
-   <html>
-       <body>
-           <div id="jsSpace"></div>
-           <script src="techie-functions.js"></script>
-           <script src="functions.js"></script>
-           <script src="my-script.js"></script>
-       </body>
-   </html>
-   ```
-
-4. If you look in the preview of the page, you'll see that there's actually nothing visible on it right now! You're going to use JavaScript to insert HTML into the page. Specifically, you'll need to:
-
-  * Get some song information from the internet
-  * Display the names of the songs
-  * Create a music player (it'll be invisible, but you'll hear it just fine!)
-  * Let the user choose which song to play on that player
-  
-  You'll start to do all of this on the next card.
