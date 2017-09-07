@@ -3,7 +3,7 @@
    ```javascript
     getSongs('U2', 3)
 
-    loadSongsToPage (){
+    function loadSongsToPage (){
       var mySongs = getSongTitlesAndArtists()
       displaySongsList(mySongs)
       setupPlayer()
@@ -19,7 +19,7 @@
 2. Next, replace the anonymous **function** with your new one, like so:
 
    ```javascript
-    whenSongsReadyDo(loadSongsToPage())
+    whenSongsReadyDo(loadSongsToPage)
    ```
 
    That looks a little neater and is a bit clearer about what's going on. Because the **functions** are well named, you can read what's happening almost like a sentence.
@@ -27,13 +27,13 @@
 3. Now, wrap everything up in a function called `putMusicOnThePage ()` like this:
 
    ```javascript
-   loadSongsToPage (){
+   function loadSongsToPage (){
     var mySongs = getSongTitlesAndArtists()
     displaySongsList(mySongs)
     setupPlayer()
     }
 
-   putMusicOnThePage (){
+   function putMusicOnThePage (){
      getSongs('U2', 3)
      whenSongsReadyDo(loadSongsToPage())
    }
@@ -44,9 +44,9 @@
 4. Load the HTML page and check it all still works. It's nice, but you can make it even better. Just add a couple of parameters to your `putMusicOnThePage ()` function for the search query and the number of songs, like so:
 
    ```javascript
-    putMusicOnThePage (query, songCount){
+    function putMusicOnThePage (query, songCount){
       getSongs(query, songCount)
-      whenSongsReadyDo(loadSongsToPage())
+      whenSongsReadyDo(loadSongsToPage)
     }
 
     putMusicOnThePage('U2', 3)
