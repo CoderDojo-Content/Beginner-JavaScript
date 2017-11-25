@@ -2,3 +2,7 @@
 
 
 
+* [Italiano](it/)
+* [Español](es/)
+* [Nederlands](nl/)
+* [Français](fr/)
