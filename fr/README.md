@@ -1,4 +1,4 @@
-1. Dans ces Sushi Cards you'll be learning JavaScript—one of the world's most popular programing languages. You probably use things built with it every day. It's in every major website, including YouTube, Facebook, Instagram and Google. It's also in lots of mobile apps and browser games.
+1. Dans these Sushi Cards you'll be learning JavaScript—one of the world's most popular programing languages. You probably use things built with it every day. It's in every major website, including YouTube, Facebook, Instagram and Google. It's also in lots of mobile apps and browser games.
 2. Go to [dojo.soy/trinket](http://dojo.soy/trinket) and click "Sign Up For Your Free Account" if you do not already have an account. You will need an email address to sign up.
 3. Enter your email address and choose a password, or ask somebody to do this for you.
 4. Creating an account allows you to save your work and access it from any computer. It also allows you to make a copy of a project somebody else has shared with you so you can make your own changes to it!
