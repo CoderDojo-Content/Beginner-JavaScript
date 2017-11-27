@@ -1,0 +1,16 @@
+{
+    "direction": "ltr",
+    "language": "pt",
+    "pdf": {
+        "margin": {
+            "left": 0,
+            "right": 0,
+            "top": 100
+        },
+        "paperSize": "a4"
+    },
+    "title": "Beginner JavaScript",
+    "variables": {
+        "seriesTitle": "Beginner JavaScript"
+    }
+}
