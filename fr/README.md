@@ -1,4 +1,4 @@
-1. In these Sushi Cards you'll be learning JavaScript—one of the world's most popular programing languages. You probably use things built with it every day. It's in every major website, including YouTube, Facebook, Instagram and Google. It's also in lots of mobile apps and browser games.
+1. Dans ces Sushi Cards you'll be learning JavaScript—one of the world's most popular programing languages. You probably use things built with it every day. It's in every major website, including YouTube, Facebook, Instagram and Google. It's also in lots of mobile apps and browser games.
 2. Go to [dojo.soy/trinket](http://dojo.soy/trinket) and click "Sign Up For Your Free Account" if you do not already have an account. You will need an email address to sign up.
 3. Enter your email address and choose a password, or ask somebody to do this for you.
 4. Creating an account allows you to save your work and access it from any computer. It also allows you to make a copy of a project somebody else has shared with you so you can make your own changes to it!
@@ -18,14 +18,15 @@
    </html>
    ```
 
-  All you have there is the basic HTML code for a page with a `div` \(division\) element with an `id` attribute where the `div` is called "jsSpace". What you need to do now is include a few JavaScript files on the page. You do that using the `script` tag with the `src` attribute set to the name of your file. You've got three JavaScript files:
+   All you have there is the basic HTML code for a page with a `div` \(division\) element with an `id` attribute where the `div` is called "jsSpace". What you need to do now is include a few JavaScript files on the page. You do that using the `script` tag with the `src` attribute set to the name of your file. You've got three JavaScript files:
 
-  * **techie-functions**—Some of my code that you don't need to change, but feel free to take a look to understand how it's working
-  * **functions.js**—Some of my code that you'll need to make some changes to over the course of these Sushi Cards
-  * **my-script.js**—Where you'll be writing most of your code
+   * **techie-functions**—Some of my code that you don't need to change, but feel free to take a look to understand how it's working
+   * **functions.js**—Some of my code that you'll need to make some changes to over the course of these Sushi Cards
+   * **my-script.js**—Where you'll be writing most of your code
 
-  The order you add the `script` tags in is important because you need to load a piece of code before you can use it. You'll need to load them in the order listed above, like so:
-  ```html
+   The order you add the `script` tags in is important because you need to load a piece of code before you can use it. You'll need to load them in the order listed above, like so:
+
+   ```html
    <html>
        <body>
            <div id="jsSpace"></div>
@@ -38,9 +39,12 @@
 
 10. If you look in the preview of the page, you'll see that there's actually nothing visible on it right now! You're going to use JavaScript to insert HTML into the page. Specifically, you'll need to:
 
-  * Get some song information from the internet
-  * Display the names of the songs
-  * Create a music player (it'll be invisible, but you'll hear it just fine!)
-  * Let the user choose which song to play on that player
-  
-  You'll start to do all of this on the next card.
+    * Get some song information from the internet
+    * Display the names of the songs
+    * Create a music player \(it'll be invisible, but you'll hear it just fine!\)
+    * Let the user choose which song to play on that player
+
+    You'll start to do all of this on the next card.
+
+
+
