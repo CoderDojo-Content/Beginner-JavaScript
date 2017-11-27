@@ -1,7 +1,4 @@
 * [English](en/)
-
-
-
 * [Italiano](it/)
 * [Español](es/)
 * [Nederlands](nl/)
