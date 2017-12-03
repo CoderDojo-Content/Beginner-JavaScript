@@ -1,19 +1,21 @@
-1. JavaScript code is normally made up of **functions**: sets of instructions joined together with a name. Think of something like making a cup of tea as a **function**: 
+1. El código JavaScript normalmente se va formando con funciones: es decir, conjuntos de instrucciones unidas con un nombre. Piensen en algo así como preparar una taza de té como una función, como una serie de pasos:
 
-  * Get kettle
-  * Put water in kettle
-  * Boil water
-  * Get teapot
-  * Put teabag in teapot
-  * Put water in  teapot
-  * Wait...
-  * Get cup
-  * Pour tea into cup
-  
-  That's a lot of steps! It's much easier to teach someone how to make a cup of tea once and then just ask them to do that in future! It's the same with JavaScript. We use functions to do sometimes pretty complex things with simple commands. The great thing is that *you* don't have to write the function to use it. So to start with, use a few of mine by updating your **my-script.js** file to look like this:
-  ```javascript
+   * Consigue una pava o un recipiente para calentar.
+   * Agrégale agua a la pava.
+   * Hierve el agua. 
+   * Encuentra una tetera para colocar el agua allí.
+   * Coloca el saquito de té en la tetera.
+   * Agrega el agua caliente en la tetera.
+   * Espera...
+   * Busca una taza.
+   * Sirve una taza de té.
+
+
+   ¡Son muchos pasos! ¡Es mucho más fácil enseñarle a alguien a preparar una taza de té una vez y luego pedirle que haga eso nuevamente en el futuro! Es lo mismo con JavaScript. Usamos funciones para hacer a veces cosas bastante complejas con comandos simples. Lo mejor es que no tienes que escribir la función para usarlo. Para empezar, usa algunos de los míos actualizando tu archivo my-script.js para que se vea así:
+
+   ```javascript
     getSongs()
-    
+
     whenSongsReadyDo(
       function(){
         var mySongs = getSongTitlesAndArtists()
@@ -21,15 +23,21 @@
         setupPlayer()
       }
     )
-  ```
-  What's happening here is your code asks the internet for some songs with `getSongs()`. Then it checks if the songs have arrived yet with `whenSongsReadyDo()` and, once they've arrived, runs the **function** inside it, which is the rest of the code for your program.
-  That code does three things:
-    * It gets a list of songs and stores them in a container, which we call a **variable** called “mySongs”.
-    * It gives the list in “mySongs” to a function that displays them by creating some HTML
-    * It creates a music player and sets it to react to clicks on the songs
-2. Now switch to the **index.html** file and look at the preview window. You'll see that there's a song title there—“Yesterday”—and a play button. If you click the button, the song will play. This is great, but it's not a lot of use for a few reasons. You're going to fix them on the next few cards:
-  * First, “Yesterday” is one of the most recorded songs in history and there's no way of telling whose version this is!
-  * Second, it only shows one song, even though there are lots of versions of “Yesterday”
-  * Third, you probably want to have cooler music on your webpage, so you'll need to search for something else!
-  
-  Time for you to improve on my **function**!
+   ```
+
+   Lo que sucede aquí es que su código le pide a Internet algunas canciones con _getSongs \(\)_. Luego verifica una vez más si las canciones han llegado con _whenSongsReadyDo \(\)_ y, una vez que llegan, ejecuta la función dentro de él, que es el resto del código del programa. Ese fragmento siguiente del código hace tres cosas:
+
+   * Obtiene una lista de canciones y las almacena en un contenedor, el cual es una variable llamada _"mySongs"_.
+   * Coloca la lista en _"mySongs"_ con una función \(_displaySongsList_\) que los muestra mediante una creación en HTML.
+   * Crea un reproductor de música y lo configura para reaccionar a los clics sobre las canciones.
+
+2. Ahora cambia al archivo index.html y obseva la vista previa. Podrás ver que aparece un título de canción allí "Ayer" y un botón de reproducción. Si haces clic en el botón, la canción se reproducirá. Genial ¿no?, pero esto no es de mucha utilidad por algunas razones. Vas a modificarlas en las próximas tarjetas   :
+
+   * Primero, "Yesterday" es una de las canciones más grabadas de la historia y no hay forma de saber de quién es esta versión. 
+   * Segundo solo muestra una canción, aunque existen muchas versiones de "Yesterday".
+   * Tercero, es probable que quieras tener música más actualizada en tu página web, ¡así que tendrás que probar otra cosa!
+
+   ¡Es hora de que mejores **mi función**!
+
+
+
