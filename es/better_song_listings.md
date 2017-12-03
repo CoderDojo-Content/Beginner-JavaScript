@@ -54,14 +54,14 @@ Ahora guarda el cambio y regresa a la página "music.html". Deja que vuelva a ca
 
 Tenga en cuenta que debes dejar las comillas simples `(')` y usar un signo `+` a cada lado de la variable \(**las propiedades son un tipo particular de variable**\) nombre. Vuelve a cargar la página "music.html" y compruébalo.
 
-1. Hay algunas propiedades más de la canción que puedes usar. Actualiza la función _buildSongDisplay \(\)_ para visualizar uno o dos más de ellos::
+Hay algunas propiedades más de la canción que puedes usar. Actualiza la función _buildSongDisplay \(\)_ para visualizar uno o dos más de ellos::
 
-2. _género_: el tipo de música, p. pop, rock, dance, etc. 
+1. _género_: el tipo de música, p. pop, rock, dance, etc.
 
-3. _Fecha de lanzamiento_: cuando se lanzó la canción.
-4. _longitud_: cuánto dura la canción completa   .
+2. _Fecha de lanzamiento_: cuando se lanzó la canción.
 
-
+3. _longitud_: cuánto dura la canción completa
+   .
 
 Si ya has hecho las Sushi Cards HTML para Principiantes, o conoces HTML de otra forma, ¡prueba algunas otras etiquetas aquí también! ¡Tal vez agregando una clase al &lt;strong&gt; y juega con el CSS!
 
