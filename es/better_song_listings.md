@@ -19,7 +19,7 @@ La versión que observas en el archivo tiene algunas **notas \(en verde\)** sobr
     songsListDisplay.appendChild(buildSongDisplay(song))
 ```
 
-2. Están sucediendo muchas cosas aquí, con funciones dentro de las funciones. Vale la pena que leas los comentarios en el archivo para entenderlo. Solo podía agregar un texto, pero quería usar un poco de HTML más sofisticado y agregar algunos valores de la canción, así que escribí otra función llamada _buildSongDisplay \(\)_. Está en la parte superior del archivo y  debería verse así:
+1. Están sucediendo muchas cosas aquí, con funciones dentro de las funciones. Vale la pena que leas los comentarios en el archivo para entenderlo. Solo podía agregar un texto, pero quería usar un poco de HTML más sofisticado y agregar algunos valores de la canción, así que escribí otra función llamada _buildSongDisplay \(\)_. Está en la parte superior del archivo y  debería verse así:
 
 ```javascript
 function buildSongDisplay (song) {
@@ -46,23 +46,24 @@ var songInfo = '<strong>' + song.title + ' </strong> by &#9658;'
 
 Ahora guarda el cambio y regresa a la página "music.html". Deja que vuelva a cargar y ve la diferencia. Puedes agregar cualquier texto que desees allí. El extraño conjunto de símbolos y números al final \(►\) te da la flecha de reproducción. Prueba con otros cuatro números y observa lo que obtienes. Sin embargo, ¡vuelve a cambiarlo después!
 
-3. Regresa a "functions.js" y cambia la línea un poco más, para buscar la propiedad del artista de la canción, como esta:
+1. Regresa a "functions.js" y cambia la línea un poco más, para buscar la propiedad del artista de la canción, como esta:
 
 ```javascript
  var songInfo = '<strong>' + song.title + ' </strong> by '+ song.artist +'&#9658;'
 ```
 
-Notice that you need to leave the single quotes \(`'`\) and use a plus either side of the **variable** \(**properties** are a particular kind of **variable**\) name.  
-Re-load the “music.html” page again and check it out.
+Tenga en cuenta que debes dejar las comillas simples `(')` y usar un signo `+` a cada lado de la variable \(**las propiedades son un tipo particular de variable**\) nombre. Vuelve a cargar la página "music.html" y compruébalo.
 
-4. There are a few more **properties** on the song that you can use. Update the `buildSongDisplay()` **function** to display one or two more of them:
+1. Hay algunas propiedades más de la canción que puedes usar. Actualiza la función _buildSongDisplay \(\)_ para visualizar uno o dos más de ellos::
 
-* _genre_—the kind of music e.g. pop, rock, dance, etc.
-* _releaseDate_—when the song was released
-* _length_—how long the full song is
+2. _género_: el tipo de música, p. pop, rock, dance, etc. 
 
-If you've done the Beginner HTML Sushi Cards, or know HTML some other way, try some other tags in here too! Maybe add a class to the `<strong>` and play with the CSS!  
-Now check out your changes in “music.html” again!
+3. _Fecha de lanzamiento_: cuando se lanzó la canción.
+4. _longitud_: cuánto dura la canción completa   .
 
 
+
+Si ya has hecho las Sushi Cards HTML para Principiantes, o conoces HTML de otra forma, ¡prueba algunas otras etiquetas aquí también! ¡Tal vez agregando una clase al &lt;strong&gt; y juega con el CSS!
+
+¡Ahora revisa tus cambios en "music.html" otra vez!
 
